@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AntoKeberApps">
         <activity
-            android:name=".pertemuan_2.SecondActivity"
+            android:name=".pertemuan_3.ThirdResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pertemuan_3.ThrdActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,9 +25,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-
-        </activity>
+            android:exported="false"></activity>
     </application>
 
 </manifest>
