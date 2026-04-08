@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AntoKeberApps">
         <activity
-            android:name=".pertemuan_2.SecondActivity"
+            android:name=".pertemuan_4.FourthActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
