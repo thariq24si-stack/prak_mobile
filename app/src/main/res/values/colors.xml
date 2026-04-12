@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="bg">#ADABAB</color>
+    <color name="bank_primary">#0A2A5E</color>
+    <color name="bank_accent">#246BFD</color>
+    <color name="bank_soft">#F5F7FA</color>
+    <color name="bank_text_grey">#7C828A</color>
+    <color name="bank_yellow">#FFF1C1</color>
+
 </resources>
