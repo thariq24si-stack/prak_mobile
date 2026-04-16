@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F5F5F5">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="76dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04"
+        app:srcCompat="@drawable/apple" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:fontFamily="@font/monstserrat_black"
+        android:text="Main Dashboard"
+    android:textSize="28sp"
+    android:textStyle="bold"
+    android:textColor="#333333"
+    android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btn_bangun_ruang"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/bank_yellow"
+        android:textColor="@color/bank_primary"
+        android:fontFamily="@font/monstserrat_black"
+        android:text="Rumus Bangun Ruang"
+        android:layout_marginBottom="16dp"
+        app:cornerRadius="12dp" />
+
+    <Button
+        android:id="@+id/btn_custom1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/bank_yellow"
+        android:textColor="@color/bank_primary"
+        android:fontFamily="@font/monstserrat_black"
+        android:text="Halaman Custom 1"
+        android:layout_marginBottom="16dp"
+        app:cornerRadius="12dp" />
+
+    <Button
+        android:id="@+id/btn_custom2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/bank_yellow"
+        android:textColor="@color/bank_primary"
+        android:fontFamily="@font/monstserrat_black"
+        android:text="Halaman Custom 2"
+        android:layout_marginBottom="16dp"
+        app:cornerRadius="12dp" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/monstserrat_black"
+        android:text="Logout"
+        android:textColor="@color/bank_yellow"
+        android:backgroundTint="@color/bank_text_grey"
+        app:cornerRadius="12dp"
+        android:layout_marginTop="20dp" />
+
+
+</LinearLayout>

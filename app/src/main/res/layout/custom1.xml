@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvJudulHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/monstserrat_black"
+            android:text="Apple Park"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvDescHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Deskripsi : "
+            android:fontFamily="@font/monstserrat_black"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/ivCustom1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/parkk" />
+        <TextView
+            android:id="@+id/tvKonten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/monstserrat_black"
+            android:text="Apple Park adalah kantor pusat perusahaan Apple Inc. di Cupertino, California, yang dibuka pada April 2017. Dikenal sebagai pesawat ruang angkasa karena bangunan utamanya yang besar dan berbentuk cincin, kampus seluas 175 hektar ini berfungsi sebagai pusat yang berkelanjutan dan terhubung dengan alam bagi lebih dari 12.000 karyawan. Fasilitasnya meliputi energi terbarukan 100%, ruang hijau yang luas, dan Teater Steve Jobs."
+            android:textColor="#333333" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:id="@+id/logoFooter"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/Footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="AppleApps"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

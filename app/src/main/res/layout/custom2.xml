@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvJudulHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="alfayyadhinho"
+            android:fontFamily="@font/monstserrat_black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvDescHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/monstserrat_black"
+            android:text="Founder dari AppleApps"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/ivCustom1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/founder" />
+
+        <TextView
+            android:id="@+id/tvKonten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/monstserrat_black"
+            android:text="Di AppleApps, kami percaya bahwa efisiensi dimulai dari desain yang sederhana. Saya mengembangkan platform ini sebagai solusi one-stop untuk membantu mahasiswa dan pelajar mengakses informasi krusial serta alat hitung bangun ruang secara cepat. Fokus utama saya dalam pengembangan ini adalah integrasi data yang mulus dan navigasi yang bersih, memastikan setiap fitur dapat diakses tanpa hambatan."
+            android:textColor="#333333" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:id="@+id/logoFooter"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/Footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="AppleApps"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>
